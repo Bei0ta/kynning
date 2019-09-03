@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="is">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verkefni 5</title>
+    <link rel="stylesheet" href="verk5.css">
+</head>
+
+</header>
+<nav class="navbar">
+    <span class="open-slide">
+        <a href="#" onclick="openSlideMenu()">
+            <svg width="30" height="30">
+                <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+                <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+                <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+            </svg>
+        </a>
+    </span>
+
+    <nav class="navbar-nav">
+        <ol><a href="#1">Bekkjarkerfi</a></ol>
+        <ol><a href="#2">Áfangakerfi</a></ol>
+
+
+    </nav>
+</nav>
+
+<div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <a href="#1">Bekkjarkerfi</a>
+    <a href="#2">Áfangakerfi</a>
+
+
+</div>
+
+<div id="main">
+    <h1></h1>
+</div>
+
+<script>
+    function openSlideMenu() {
+        document.getElementById('side-menu').style.width = '300px';
+        document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu() {
+        document.getElementById('side-menu').style.width = '0';
+        document.getElementById('main').style.marginLeft = '0';
+    }
+</script>
+<header id="showcase">
+    <h1>Bekkjarkerfi og Áfangakerfi.</h1>
+    <img class="pad" src="https://image.flaticon.com/icons/svg/183/183338.svg" width="200" height="100">
+</header>
+<div id="content" class="container" id=" ">
+    </p>
+</div>
+
+<!-- Main -->
+<section class="colormain2">
+    <div class="back">
+        <h1 class="texto2" id="1">Bekkjarkerfi</h1>
+        <p class="container" id="content">Bekkjakerfi er það kallað þegar nemendur eru saman í bekk í gegnum allt námið
+            í framhaldsskóla, ekki ósvipað og í grunnskóla. Sami nemendahópurinn er samferða í flestöllum áföngum í
+            gegnum námið.</p>
+
+        <h1 class="pad">Helstu kostir bekkjakerfisins:</h1>
+        <p class="pad">☻ Meira aðhald í náminu frá samnemendum og umsjónarkennara,</p>
+        <p class="pad"> ☻ Sterkari félagsleg tengsl við samnemendur.</p>
+        <p class="pad">☻ Auðveldara að kynnast fólki og komast inn í félagslíf skólans.</p>
+
+
+        <h1 class="pad">Helstu gallar bekkjakerfisins:</h1>
+        <p class="pad">☻ Minni sveigjanleiki varðandi það hvernig námi er háttað.</p>
+        <p class="pad"> ☻ sumum þykir ekki gott að vera með alltaf með sama fólkinu í bekk.</p>
+        <img class="pad" src="https://image.flaticon.com/icons/svg/991/991922.svg" width="400" height="300"> <img class="pad" src="https://image.flaticon.com/icons/svg/809/809454.svg" width="400" height="300">
+
+    </div>
+</section>
+<section class="colormain2" id="2">
+    <div class="back">
+        <h3 class="color3">Áfangakerfi</h3>
+        <p class="container" id="content">Áfangakerfið er algengasta kennslufyrirkomulagið í framhaldskólum landsins og
+            er nokkurs konar andstæða við bekkjarkerfið. Nemendur velja sér sína leið í gegnum námið og í hvaða röð þeir
+            taka áfanga svo lengi sem þeir hafa lokið undirstöðu áföngum.</p>
+
+        <h1 class="pad">Helstu  kostir áfangakerfisins:</h1>
+        <p class="pad">☻ nemendur geta tekið námið á sínum hraða.</p>
+        <p class="pad"> ☻ þeir hafa meira val um hvaða áfanga þeir taka.</p>
+
+
+        <h1 class="pad">Helstu gallar áfangakerfisins:</h1>
+        <p class="pad">☻ Minna aðhald frá samnemendum í náminu og mikil þörf á sjálfsaga.</p>
+        <img class="pad" src="https://image.flaticon.com/icons/svg/906/906175.svg" width="400" height="300"> <img class="pad" src="https://image.flaticon.com/icons/svg/1651/1651639.svg" width="400" height="300">
+
+    </div>
+</section>
+</body>
+
+</html>
